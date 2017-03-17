@@ -112,7 +112,7 @@ To add an ILPIP to the VM created using the script above, run the following comm
 Get-AzureVM -ServiceName FTPService -Name FTPInstance | Set-AzurePublicIP -PublicIPName ftpip2 | Update-AzureVM
 ```
 
-## Cloud Service role instances
+## Manage an ILPIP for a Cloud Services role instance
 
 To add an ILPIP to a Cloud Services role instance, complete the following steps::
 
