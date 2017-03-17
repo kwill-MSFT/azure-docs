@@ -120,7 +120,7 @@ To add an ILPIP to a Cloud Services role instance, complete the following steps:
 2. Update the .cscfg file by adding the `InstanceAddress` element. The following sample adds an ILPIP named *MyPublicIP* to a role instance named *WebRole1*: 
 
 	```xml
-    	<?xml version="1.0" encoding="utf-8"?>
+	<?xml version="1.0" encoding="utf-8"?>
 	<ServiceConfiguration serviceName="ILPIPSample" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2014-01.2.3">
 	  <Role name="WebRole1">
 	    <Instances count="1" />
