@@ -114,7 +114,7 @@ Get-AzureVM -ServiceName FTPService -Name FTPInstance | Set-AzurePublicIP -Publi
 
 ## Manage an ILPIP for a Cloud Services role instance
 
-To add an ILPIP to a Cloud Services role instance, complete the following steps::
+To add an ILPIP to a Cloud Services role instance, complete the following steps:
 
 1. Download the .cscfg file for the cloud service by completing the steps in the [How to Configure Cloud Services](../cloud-services/cloud-services-how-to-configure-portal.md?toc=%2fazure%2fvirtual-network%2ftoc.json#reconfigure-your-cscfg) article.
 2. Update the .cscfg file by adding the `InstanceAddress` element. The following sample adds an ILPIP named *MyPublicIP* to a role instance named *WebRole1*: 
